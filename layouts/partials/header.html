@@ -10,6 +10,16 @@
   </nav>
 
   <nav class="fontawesome">
+    {{ if .Site.Social.twitter }}
+    <a href="{{ .Site.Social.twitter }}" target="_blank">
+        <i title="twitter" class="fab fa-twitter"></i>
+    </a>
+    {{ end }}
+    {{ if .Site.Social.linkedin }}
+    <a href="{{ .Site.Social.linkedin }}" target="_blank">
+        <i title="linkedin" class="fab fa-linkedin"></i>
+    </a>
+    {{ end }}
     {{ if .Site.Social.github }}
     <a href="{{ .Site.Social.github }}" target="_blank">
         <i title="GitHub" class="fab fa-github"></i>
@@ -21,7 +31,7 @@
     </a>
     {{ end }}
   </nav>
-  
+
   {{ with .Site.Params.description }}
   <div class="hidden description">{{ safeHTML . }}</div>
   {{ end }}

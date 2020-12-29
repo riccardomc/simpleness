@@ -1,18 +1,18 @@
-name = "simpleness"
+name = "manuel"
 license = "MIT"
-licenselink = "https://github.com/RainerChiang/simpleness/blob/master/LICENSE"
-description = "A simple and concise Hugo theme"
-homepage = "https://github.com/RainerChiang/simpleness"
+licenselink = "https://github.com/riccardomc/simpleness/blob/master/LICENSE"
+description = "A hugo theme, under a quiet sky"
+homepage = "https://github.com/riccardomc/simpleness"
 tags = ["blog", "simple", "clean", "highlight", "readable"]
 features = ["blog", "simple", "clean", "highlight"]
 min_version = "0.51"
 
 [author]
+  name = "Riccardo M. Cefala"
+  homepage = "https://riccardo.cefala.net/"
+  repo = "https://github.com/riccardomc/simpleness"
+
+[original-author]
   name = "Rainer Chiang"
   homepage = "https://rainerchiang.github.io/"
   repo = "https://github.com/RainerChiang/simpleness"
-
-[original.author]
-  name = "Niklas Buschmann"
-  homepage = "https://github.com/niklasbuschmann/"
-  repo = "https://github.com/niklasbuschmann/contrast-hugo"

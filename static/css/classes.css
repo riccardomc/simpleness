@@ -29,6 +29,10 @@
   text-decoration: inherit;
 }
 
+.archive {
+  list-style: none;
+}
+
 /***** custom *****/
 .fontawesome a {
   text-decoration: none;
@@ -43,7 +47,7 @@
 }
 
 .foot {
-  font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", sans-serif;
+  font-family: "Classic", sans-serif;
   margin: 1%;
   color: #8e8e91;
   text-align: center;
